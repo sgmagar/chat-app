@@ -1,4 +1,4 @@
-package com.sgmagar.flash_chat;
+package com.sauravgharti.flash_chat;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

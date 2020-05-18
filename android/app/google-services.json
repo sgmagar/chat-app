@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1023624196260",
+    "firebase_url": "https://test-rn-firebase-app-205.firebaseio.com",
+    "project_id": "test-rn-firebase-app--205",
+    "storage_bucket": "test-rn-firebase-app--205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023624196260:android:c8f1435e282fe286bbf631",
+        "android_client_info": {
+          "package_name": "com.sauravgharti.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023624196260-u3htnpk9cf8ne4h98anpb6l1ed7rbll8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXwZjYJ8QhsNvCVSf6rlpx313TqSfKx7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023624196260-u3htnpk9cf8ne4h98anpb6l1ed7rbll8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023624196260-7i0q3k2pqdul2og65esb0kppvp4lfjgs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.crowdbotics.test-rn-firebase-app--205"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
