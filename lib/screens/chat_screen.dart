@@ -107,7 +107,7 @@ class MessagesStream extends StatelessWidget {
           );
         }
         List<MessageBubble> messageWidgets =
-            snapshot.data.documents.map((document) {
+            snapshot.data.documents.reversed.map((document) {
           return MessageBubble(
             sender: document.data['sender'],
             text: document.data['text'],
@@ -116,6 +116,7 @@ class MessagesStream extends StatelessWidget {
         }).toList();
         return Expanded(
           child: ListView(
+            reverse: true,
             padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
             children: messageWidgets,
           ),
